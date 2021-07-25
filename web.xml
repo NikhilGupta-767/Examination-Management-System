@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Demo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+<servlet>
+<servlet-name>welcome</servlet-name>
+<servlet-class>Login</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>welcome</servlet-name>
+<url-pattern>/Login</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>Forget Password</servlet-name>
+<servlet-class>ForgetPass</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Forget Password</servlet-name>
+<url-pattern>/ForgetPass</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>StudentMenu</servlet-name>
+<servlet-class>StudentMenu</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>StudentMenu</servlet-name>
+<url-pattern>/StudentMenu</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>AdminMenu</servlet-name>
+<servlet-class>AdminMenu</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>AdminMenu</servlet-name>
+<url-pattern>/AdminMenu</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>Student_Details</servlet-name>
+<servlet-class>Student_Details</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Student_Details</servlet-name>
+<url-pattern>/Student_Details</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>SubmitMarks</servlet-name>
+<servlet-class>SubmitMarks</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>SubmitMarks</servlet-name>
+<url-pattern>/SubmitMarks</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>RegisterStd</servlet-name>
+<servlet-class>RegisterStd</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>RegisterStd</servlet-name>
+<url-pattern>/RegisterStd</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>DeleteStd</servlet-name>
+<servlet-class>DeleteStd</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>DeleteStd</servlet-name>
+<url-pattern>/DeleteStd</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>ExamRegistration</servlet-name>
+<servlet-class>ExamRegistration</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>ExamRegistration</servlet-name>
+<url-pattern>/ExamRegistration</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>ExamResult</servlet-name>
+<servlet-class>ExamResult</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>ExamResult</servlet-name>
+<url-pattern>/ExamResult</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>AdmitCard</servlet-name>
+<servlet-class>AdmitCard</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>AdmitCard</servlet-name>
+<url-pattern>/AdmitCard</url-pattern>
+</servlet-mapping>
+  	
+</web-app>
