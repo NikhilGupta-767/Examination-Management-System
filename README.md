@@ -1,2 +1,2 @@
 # Examination-Management-System
-read me will be added later
+read me will be added Soon
